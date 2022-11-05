@@ -1,0 +1,8 @@
+replicas:2
+image:
+  repository: grafana/grafana
+  tag: ""
+
+services:
+  enabled: true
+  type: LoadBalancer

@@ -1,0 +1,8 @@
+master:
+  resources:
+    limits:
+    cpu: 200
+    memory: 200Mi
+
+  auth:
+    enables: false
